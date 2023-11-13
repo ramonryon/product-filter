@@ -1,3 +1,4 @@
+import FilertSection from "./FilertSection";
 
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <p className='text-slate-700 max-w-3xl'>We not only help you design exceptional products, but also make it easy for you to share your designs with more like-minded people.</p>
       </div>
       <div className='grid grid-cols-8 py-8 gap-10'>
-
+        <FilertSection />
       </div>
     </main>
   )
